@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    'name': 'template',
+    'name': 'italiano',
     'version': '13.0.1.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
@@ -27,7 +27,6 @@
     'website': 'http://github.com/jobiols/cl-test',
     'license': 'AGPL-3',
     'depends': [
-        'standard_depends_ce'
         ],
     'installable': True,
 
@@ -67,10 +66,7 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-test.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
-
+        'git@github.com:filoquin/cl-italiano.git',
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
@@ -159,8 +155,8 @@
         'https://github.com/ingadhoc/product ingadhoc-product',
 
         # Cambiamos por el de filoquin
-        #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
+        'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
+        #'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
 
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
