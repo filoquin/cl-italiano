@@ -66,7 +66,7 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:filoquin/cl-italiano.git',
+        'https://github.com/filoquin/cl-italiano.git',
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
